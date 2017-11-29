@@ -1,0 +1,31 @@
+
+<%- partial('post-nav') %>
+
+<h1 class="detailsTitle">
+  #<%- item.number || "00" %> <%- item.title || "Untitled" %>
+</h1>
+<div data-type="youtube" data-video-id="<%- item.yt_id %>"></div>
+<noscript>
+  <p class="noScriptBlock">Se video på <%- link_to('https://www.youtube.com/watch?v=' + item.yt_id, 'Youtube') %></p>
+</noscript>
+
+<%- item.content %>
+
+<h2 class="detailsSubTitle">Kode fra episoden</h2>
+<pre class="language-javascript" data-src="<%- config.root %>code-blocks/<%- item.number %>.js"></pre>
+<noscript>
+  <p class="noScriptBlock">Se kodeeksempel på <a href="<%- config.root %>code-blocks/<%- item.number %>.js"><%- item.number %>.js</a>></p>
+</noscript>
+
+
+<%- partial('post-nav') %>
+
+
+<%- css('css/custom-prism.css') %>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.min.js" deref></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/components/prism-javascript.min.js" deref></script>
+
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.7/plyr.css">
+<script src="https://cdn.plyr.io/2.0.7/plyr.js" deref></script>
+<script async>plyr.setup();</script>

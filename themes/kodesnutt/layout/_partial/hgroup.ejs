@@ -1,0 +1,22 @@
+<hgroup class="headerGroup">
+  <h1 class="logo">
+    <a href="/">
+      <img src="<%- config.root %>assets/logo.svg" alt="Kodesnutt.io" />
+    </a>
+  </h1>
+  <nav class="navigation">
+    <ul class="navigationList">
+      <% for (var link in site.data.menu) { %>
+        <li>
+            <a href="<%= site.data.menu[link] %>"><%= link %></a>
+        </li>
+      <% } %>
+      <li>
+        <a href="https://twitter.com/kodesnutt">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCnh552SM60LYhWogGmwYZuQ">Youtube</a>
+      </li>
+    </ul>
+  </nav>
+</hgroup>

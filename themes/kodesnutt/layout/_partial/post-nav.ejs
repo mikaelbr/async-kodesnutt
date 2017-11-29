@@ -1,0 +1,8 @@
+<aside class="post-navigation">
+  <% if (page.next) { %>
+    <a href="<%- url_for(page.next.path) %>" class="prev">&lt;- <%- page.next.title %></a>
+  <% } %>
+  <% if (page.prev) { %>
+    <a href="<%- url_for(page.prev.path) %>" class="next"><%- page.prev.title %> -&gt;</a>
+  <% } %>
+</aside>

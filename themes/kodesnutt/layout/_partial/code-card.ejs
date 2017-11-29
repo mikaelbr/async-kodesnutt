@@ -1,0 +1,20 @@
+<a class="episode" href="<%- config.root %><%- item.path %>">
+  <header class="episode__header">
+    <figure class="episode__codePreview">
+      <img src="<%- config.root %>code-previews/<%- item.number || "00" %>.jpg" alt="<%- item.title || theme.default_post_title || "Untitled" %>" />
+    </figure>
+    <hgroup class="episode__metadata">
+      <h1 class="episode__title"><%- item.title || theme.default_post_title || "Untitled" %></h1>
+      <h2 class="episode__number">
+        <div class="episode__number__inner">
+          #<%- item.number || "00" %>
+        </div>
+      </h2>
+      <h3 class="episode__info">Varighet: <%- item.duration || "7 minutter" %></h3>
+    </hgroup>
+    <div class="episode__indicator"></div>
+  </header>
+  <div class="episode__content">
+    <%- item.excerpt || item.content %>
+  </div>
+</a>

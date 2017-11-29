@@ -1,0 +1,13 @@
+<%- partial('_partial/header') %>
+
+<main class="content" id="episodes">
+    <div class="content__timeline">
+        <p class="content__timeline__start">START</p>
+        <p class="content__timeline__slutt">SLUTT</p>
+    </div>
+    <div class="content__episodes">
+        <% page.posts.forEach(function(item){ %>
+            <%- partial('_partial/code-card', {item: item}) %>
+        <% }); %>
+    </div>
+</main>
