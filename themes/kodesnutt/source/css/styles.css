@@ -51,9 +51,9 @@ hr {
 }
 .topHeader--small {
   min-height: auto;
-  height: auto; 
+  height: auto;
   background-position: center top;
-  
+
 }
 
 .logo img {
@@ -105,6 +105,7 @@ hr {
   text-align: center;
 
   margin-top: 14rem;
+  text-shadow: 0 0 2px rgba(0,0,0, .3);
 }
 
 .hero h2 {
@@ -212,6 +213,15 @@ hr {
 .noScriptBlock {
   margin-bottom: 2rem;
 }
+
+.seriesInProgress {
+  text-align: center;
+  padding: 1rem;
+  background: #cccccc;
+  border-radius: 0.3rem;
+  margin-bottom: 6rem;
+}
+
 .footer {
   min-width: 800px;
   width: 80%;
