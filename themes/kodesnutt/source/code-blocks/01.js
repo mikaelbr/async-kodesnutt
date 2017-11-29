@@ -1,8 +1,8 @@
 // JavaScript is single threaded.
 
 console.time();
-for (let i = 0; i < 10000; i++);
-console.timeEnd();
+for (let i = 0; i < 100000000; i++);
+console.timeEnd(); // Takes a long time
 
 // So when doing things like fetching
 // external resources, doing it synchronously
