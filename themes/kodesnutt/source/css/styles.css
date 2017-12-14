@@ -176,7 +176,7 @@ hr {
   border-right: 1px solid #fff;
   position: absolute;
   top: 10rem;
-  bottom: 10rem;
+  bottom: 0;
   left: 50%;
   margin-right: -1px;
 }
