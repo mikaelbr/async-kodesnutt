@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="no-nb">
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  
+  <title>Feilhåndtering av promises - Kodesnutt</title>
+
+  <!--Favicon-->
+  <link rel="icon" href="/favicon/favicon.png">
+
+  <!--Description-->
+  
+      <meta name="description" content="Lær asynkron programmering i JavaScript fra starten. Helt fra grunnleggende callbacks til promises og helt til async/await.">
+  
+
+  <!--Author-->
+  
+      <meta name="author" content="Mikael Brevik">
+  
+
+  <link rel="alternate" href="/atom.xml" title="Kodesnutt">
+
+  <meta name="description" content="Feilhåndtering med promises kan være litt mystisk, og det er lett for å gi uventet feil i en lang promise-chain. I denne episoden ser vi på hvordan catching av ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Feilhåndtering av promises">
+<meta property="og:url" content="https://asyncjs.kodesnutt.io/2017/12/14/05-Feilhandtering-av-promises/index.html">
+<meta property="og:site_name" content="Kodesnutt">
+<meta property="og:description" content="Feilhåndtering med promises kan være litt mystisk, og det er lett for å gi uventet feil i en lang promise-chain. I denne episoden ser vi på hvordan catching av feil i promises fungerer!">
+<meta property="og:locale" content="no">
+<meta property="og:image" content="https://asyncjs.kodesnutt.io/assets/twitter-card.jpg">
+<meta property="og:updated_time" content="2021-03-17T13:51:02.295Z">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Feilhåndtering av promises">
+<meta name="twitter:description" content="Feilhåndtering med promises kan være litt mystisk, og det er lett for å gi uventet feil i en lang promise-chain. I denne episoden ser vi på hvordan catching av feil i promises fungerer!">
+<meta name="twitter:image" content="https://asyncjs.kodesnutt.io/assets/twitter-card.jpg">
+
+    <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/firacode/fira_code.css">
+
+  <!-- Google Analytics -->
+  
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-87653156-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+</head>
+
+
+  <body>
+    <!-- Header -->
+    <header class="topHeader topHeader--small">
+  <hgroup class="headerGroup">
+  <h1 class="logo">
+    <a href="/">
+      <img src="/assets/logo.svg" alt="Kodesnutt.io">
+    </a>
+  </h1>
+  <nav class="navigation">
+    <ul class="navigationList">
+      
+        <li>
+            <a href="/about">Om siden</a>
+        </li>
+      
+      <li>
+        <a href="https://twitter.com/kodesnutt" rel="external nofollow noopener noreferrer" target="_blank">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCnh552SM60LYhWogGmwYZuQ" rel="external nofollow noopener noreferrer" target="_blank">Youtube</a>
+      </li>
+    </ul>
+  </nav>
+</hgroup>
+</header>
+<main class="content content--details">
+
+<aside class="post-navigation">
+  
+    <a href="/2017/12/14/04-Promises/" class="prev">&lt;- Promises</a>
+  
+  
+</aside>
+
+
+<h1 class="detailsTitle">
+  #05 Feilhåndtering av promises
+</h1>
+<div data-type="youtube" data-video-id="_6sWEHXc-jM"></div>
+<noscript>
+  <p class="noScriptBlock">Se video på <a href="https://www.youtube.com/watch?v=_6sWEHXc-jM" title="Youtube" rel="external nofollow noopener noreferrer" target="_blank">Youtube</a></p>
+</noscript>
+
+<p>Feilhåndtering med promises kan være litt mystisk, og det er lett for å gi uventet feil i en lang promise-chain. I denne episoden ser vi på hvordan catching av feil i promises fungerer!</p>
+
+
+<h2 class="detailsSubTitle">Kode fra episoden</h2>
+<pre class="language-javascript" data-src="/code-blocks/05.js"></pre>
+<noscript>
+  <p class="noScriptBlock">Se kodeeksempel på <a href="/code-blocks/05.js">05.js</a>></p>
+</noscript>
+
+
+<aside class="post-navigation">
+  
+    <a href="/2017/12/14/04-Promises/" class="prev">&lt;- Promises</a>
+  
+  
+</aside>
+
+
+
+<link rel="stylesheet" href="/css/custom-prism.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/prism.min.js" deref=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.3/components/prism-javascript.min.js" deref=""></script>
+
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.7/plyr.css">
+<script src="https://cdn.plyr.io/2.0.7/plyr.js" deref=""></script>
+<script async>plyr.setup();</script>
+</main>
+
+    <!-- After footer scripts -->
+    <footer class="footer">
+    <h3><a href="https://kodesnutt.io" rel="external nofollow noopener noreferrer" target="_blank">kodesnutt.io</a></h3>
+    <p>
+        <a href="https://twitter.com/kodesnutt" rel="external nofollow noopener noreferrer" target="_blank">@kodesnutt</a> –
+        <a href="https://www.youtube.com/channel/UCnh552SM60LYhWogGmwYZuQ" rel="external nofollow noopener noreferrer" target="_blank">Subscribe</a>
+    </p>
+</footer>
+
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/firacode/fira_code.css">
+
+  </body>
+</html>
