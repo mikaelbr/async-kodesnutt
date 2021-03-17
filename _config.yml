@@ -90,3 +90,8 @@ nofollow:
 #   type: git
 #   repo: https://github.com/mikaelbr/asyncjs.kodesnutt.io.git
 #   branch: master
+deploy:
+  type: git
+  repo: https://github.com/mikaelbr/async-kodesnutt.git
+  branch: [branch]
+  message: [message]
