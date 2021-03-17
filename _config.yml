@@ -84,9 +84,9 @@ feed:
 nofollow:
 	enable: true
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/mikaelbr/asyncjs.kodesnutt.io.git
-  branch: master
+# # Deployment
+# ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+#   type: git
+#   repo: https://github.com/mikaelbr/asyncjs.kodesnutt.io.git
+#   branch: master
