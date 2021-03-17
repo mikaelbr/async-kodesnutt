@@ -93,5 +93,4 @@ nofollow:
 deploy:
   type: git
   repo: https://github.com/mikaelbr/async-kodesnutt.git
-  branch: [branch]
-  message: [message]
+  branch: gh-pages
