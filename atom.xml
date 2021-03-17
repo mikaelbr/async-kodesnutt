@@ -5,9 +5,9 @@
   <subtitle>Async JavaScript</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://asyncjs.kodesnutt.io/"/>
-  <updated>2021-03-17T13:51:02.295Z</updated>
-  <id>https://asyncjs.kodesnutt.io/</id>
+  <link href="https://ajs.kodesnutt.io/"/>
+  <updated>2021-03-17T14:03:02.705Z</updated>
+  <id>https://ajs.kodesnutt.io/</id>
   
   <author>
     <name>Mikael Brevik</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Feilhåndtering av promises</title>
-    <link href="https://asyncjs.kodesnutt.io/2017/12/14/05-Feilhandtering-av-promises/"/>
-    <id>https://asyncjs.kodesnutt.io/2017/12/14/05-Feilhandtering-av-promises/</id>
+    <link href="https://ajs.kodesnutt.io/2017/12/14/05-Feilhandtering-av-promises/"/>
+    <id>https://ajs.kodesnutt.io/2017/12/14/05-Feilhandtering-av-promises/</id>
     <published>2017-12-14T21:32:38.000Z</published>
-    <updated>2021-03-17T13:51:02.295Z</updated>
+    <updated>2021-03-17T14:03:02.705Z</updated>
     
     <content type="html"><![CDATA[<p>Feilhåndtering med promises kan være litt mystisk, og det er lett for å gi uventet feil i en lang promise-chain. I denne episoden ser vi på hvordan catching av feil i promises fungerer!</p>]]></content>
     
@@ -39,10 +39,10 @@
   
   <entry>
     <title>Promises</title>
-    <link href="https://asyncjs.kodesnutt.io/2017/12/14/04-Promises/"/>
-    <id>https://asyncjs.kodesnutt.io/2017/12/14/04-Promises/</id>
+    <link href="https://ajs.kodesnutt.io/2017/12/14/04-Promises/"/>
+    <id>https://ajs.kodesnutt.io/2017/12/14/04-Promises/</id>
     <published>2017-12-14T20:44:46.000Z</published>
-    <updated>2021-03-17T13:51:02.295Z</updated>
+    <updated>2021-03-17T14:03:02.705Z</updated>
     
     <content type="html"><![CDATA[<p>I denne episoden bygger vi videre på konseptene vi lærte i forrige episode i serien rundt thunks og futures. Promises er et konsept som er bygd inn i Node.js og nettlesere som er likt konseptet futures, men man har en større API-overflate og man kan lage nye promises basert på tidligere promises.</p>]]></content>
     
@@ -60,10 +60,10 @@
   
   <entry>
     <title>Thunks &amp; Futures</title>
-    <link href="https://asyncjs.kodesnutt.io/2017/12/01/03-Thunks-Futures/"/>
-    <id>https://asyncjs.kodesnutt.io/2017/12/01/03-Thunks-Futures/</id>
+    <link href="https://ajs.kodesnutt.io/2017/12/01/03-Thunks-Futures/"/>
+    <id>https://ajs.kodesnutt.io/2017/12/01/03-Thunks-Futures/</id>
     <published>2017-12-01T08:01:17.000Z</published>
-    <updated>2021-03-17T13:51:02.295Z</updated>
+    <updated>2021-03-17T14:03:02.705Z</updated>
     
     <content type="html"><![CDATA[<p>I denne episoden skal vi se hvordan vi kan holde på en asynkron verdi uten å måtte ta stilling til det med en gang via en callback. Vi skal se på grunnleggende thunks og noe vi kaller futures.</p>]]></content>
     
@@ -81,10 +81,10 @@
   
   <entry>
     <title>Event Loop</title>
-    <link href="https://asyncjs.kodesnutt.io/2017/11/27/02-EventLoop/"/>
-    <id>https://asyncjs.kodesnutt.io/2017/11/27/02-EventLoop/</id>
+    <link href="https://ajs.kodesnutt.io/2017/11/27/02-EventLoop/"/>
+    <id>https://ajs.kodesnutt.io/2017/11/27/02-EventLoop/</id>
     <published>2017-11-27T12:47:13.000Z</published>
-    <updated>2021-03-17T13:51:02.295Z</updated>
+    <updated>2021-03-17T14:03:02.705Z</updated>
     
     <content type="html"><![CDATA[<p>Andre episode av serien hvor vi undersøker asynkron JavaScript. I denne episoden ser vi på hva en event loop er i JavaScript og hva det betyr at JavaScript er single threaded.</p>]]></content>
     
@@ -102,10 +102,10 @@
   
   <entry>
     <title>Callbacks</title>
-    <link href="https://asyncjs.kodesnutt.io/2017/11/27/01-Callbacks/"/>
-    <id>https://asyncjs.kodesnutt.io/2017/11/27/01-Callbacks/</id>
+    <link href="https://ajs.kodesnutt.io/2017/11/27/01-Callbacks/"/>
+    <id>https://ajs.kodesnutt.io/2017/11/27/01-Callbacks/</id>
     <published>2017-11-27T11:49:38.000Z</published>
-    <updated>2021-03-17T13:51:02.295Z</updated>
+    <updated>2021-03-17T14:03:02.705Z</updated>
     
     <content type="html"><![CDATA[<p>Vi starter den nye serien om asynkron JavaScript med å se på den mest grunnleggende byggeklossen til asynkronitet i JavaScript: Callbacket.</p><p>En funksjon som lar deg delegere bort ansvar til invokasjon til noen andre.</p>]]></content>
     
